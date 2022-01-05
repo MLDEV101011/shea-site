@@ -36,14 +36,14 @@ function Home() {
           </p>
         </div>
         <div className="flex flex-col w-full justify-center items-center p-2">
-          <Link to="/schedule" className="bg-gray-400 p-3 text-white">
+          <Link to="/schedule" className="bg-gray-600 p-3 text-white rounded">
             Book an Appointment
           </Link>
         </div>
       </div>
 
-      <div className="flex w-full p-3 items-center flex-col md:flex-row md:justify-between">
-        <div className="flex flex-col w-full justify-center items-center p-20 lg:px-40">
+      <div className="flex w-full p-3 items-center flex-col md:flex-row ">
+        <div className="flex flex-col w-full items-center lg:px-56 ">
           <img
             src="https://images.pexels.com/photos/6724358/pexels-photo-6724358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt="skinCare"
@@ -52,29 +52,29 @@ function Home() {
           <p className="my-3 text-center text-lg md:text-2xl ">
             SKIN CARE SERVICES
           </p>
-          <p className="text-center text-sm md:text-xl md:px-20">
+          <p className="text-center text-sm md:text-xl lg:px-30">
             Integrating customized treatments, high quality products, and
             advanced technologies.
           </p>
-          <Link to="/services" className="bg-gray-400 p-3 text-white mt-5">
+          <Link to="/services" className="bg-gray-600 p-3 text-white mt-5 rounded">
             Learn More
           </Link>
         </div>
 
-        <div className="flex flex-col w-full justify-center items-center p-20 lg:px-40">
+        <div className="flex flex-col w-full  items-center lg:px-56 ">
           <img
-            src="https://images.pexels.com/photos/6724358/pexels-photo-6724358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://magazine.lneonline.com/wp-content/uploads/2018/11/Busi_A3.jpg"
             alt="skinCare"
             className="w-40 h-40 rounded-full"
           />
           <p className="my-3 text-center text-lg md:text-2xl ">
             OTHER TREATMENTS
           </p>
-          <p className="text-center text-sm md:text-xl md:px-20">
+          <p className="text-center text-sm md:text-xl lg:px-30 xl:px-30">
             Providing more than just facials, I proudly offer Waxing and more,
             all tailored to your needs.
           </p>
-          <Link to="/services" className="bg-gray-400 p-3 text-white mt-5">
+          <Link to="/services" className="bg-gray-600 p-3 text-white mt-5 rounded">
             Learn More
           </Link>
         </div>
