@@ -26,7 +26,7 @@ function Header() {
           </Link>
           <Link
             to="/contact"
-            className="font-licorice hover:text-4xl transition-transform ease-in-out text-gray-800 font-bold text-3xl ml-10"
+            className="mr-5 font-licorice hover:text-4xl transition-transform ease-in-out text-gray-800 font-bold text-3xl ml-10"
           >
             Contact Me
           </Link>
