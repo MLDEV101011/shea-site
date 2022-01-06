@@ -23,7 +23,7 @@ function Home() {
           Skin Care Specialist in Jasper, Indiana
         </h1>
         <div className="flex flex-col  md:w-3/4 justify-center items-center p-8 md:p-10 text-center">
-          <p className="text-center leading-loose md:leading-loose lg:leading-loose xl:leading-loose text-sm md:text-xl">
+          <p className="text-center leading-loose md:leading-loose lg:leading-loose xl:leading-loose text-lg md:text-xl">
             Shea's Esthetics is a skincare oasis, offering advanced treatments
             to help you achieve youthful, radiant, rejuvenated skin. Every
             treatment is customized to specifically address your skincare goals.
