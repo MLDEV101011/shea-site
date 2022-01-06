@@ -9,7 +9,6 @@ function Footer() {
                 <Link to='/services' className='text-gray-400 text text-center lg:text-xl md:mx-10'>SERVICES</Link>
                 <Link to='/about' className='text-gray-400 text text-center lg:text-xl md:mx-10 '>ABOUT</Link>
                 <Link to='/contact' className='text-gray-400 text text-center lg:text-xl md:mx-10'>CONTACT</Link>
-                <Link to='/schedule' className='text-gray-400 text text-center lg:text-xl md:mx-10 '>APPOINTMENTS</Link>
             </div>
             <div className='flex justify-center items-center mt-5 flex-col'>
             <div className='flex flex-row'>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -13,7 +14,7 @@ function About() {
         />
         <div className=" md:px-10">
           <h1 className="text-2xl text-center md:text-left">MEET SHEA</h1>
-          <p className="text-sm mt-2 text-center md:text-left">
+          <p className="text-sm mt-2 text-center md:text-lg md:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
             risus pretium quam vulputate dignissim suspendisse in est. Id ornare
@@ -31,7 +32,7 @@ function About() {
             ultricies. Ut aliquam purus sit amet luctus venenatis lectus magna.
             Lectus sit amet est placerat in egestas erat.
           </p>
-          <p className="text-sm mt-5 text-center md:text-left">
+          <p className="text-sm mt-5 text-center md:text-lg md:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
             risus pretium quam vulputate dignissim suspendisse in est. Id ornare
@@ -40,18 +41,21 @@ function About() {
             posuere ac ut. Diam quam nulla porttitor massa. Enim tortor at
             auctor urna nunc. 
           </p>
-
+          <div className="flex w-full justify-end mt-10">
+          <Link to="/contact" className="text-xl bg-gray-600 p-5 rounded text-white text-center md:text-left">CONTACT SHEA</Link>
+          </div>
         </div>
       </div>
       <div className="flex justify-center m-10 text-center flex-col">
       <hr className="self-center w-3/4 m-10 text-center" />
-        <p>QUALIFICATIONS</p>
-        <p className="text-sm md:m-5 md:mb-28 md:mx-80 text-center">
+        <p className="md:text-xl">QUALIFICATIONS</p>
+        <p className="text-sm md:text-lg md:m-5 md:mb-10 md:mx-80 text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
             risus pretium quam vulputate dignissim suspendisse in est. Id ornare
             arcu odio ut sem nulla.
           </p>
+          <img  src="https://www.tricociuniversity.edu/wp-content/themes/tricoci/images/logo.png" alt="" className="h-20 w-40 self-center"/>
       </div>      
       <Footer  />
     </div>

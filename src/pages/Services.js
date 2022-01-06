@@ -51,9 +51,9 @@ function Services() {
         >
           BOOK AN APPOINTMENT
         </Link>
+      <hr className="w-3/4 m-10 self-center" />
       </div>
 
-      <hr className="w-3/4 m-10" />
       <div className="flex flex-col w-full items-center">
         <p className="font-forum w-full py-10 text-center  font-bold text-gray-500 text-4xl">
           OTHER SERVICES
@@ -88,7 +88,7 @@ LET US TREAT YOU TO A LASH LIFT OR LASH AND BROW TINTING!"
         >
           BOOK AN APPOINTMENT
         </Link>
-        <hr className="w-3/4 mb-20" />
+        <hr className="w-3/4 mb-20 self-center" />
       </div>
       <Footer />
     </div>
