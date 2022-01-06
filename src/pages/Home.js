@@ -13,13 +13,13 @@ function Home() {
         <img src={banner} alt="" className="w-full " />
       </div>
 
-      <div className="flex flex-col w-full items-center lg:pt-5">
+      <div className="flex flex-col w-full items-center justify-center lg:pt-5">
         <img
           src="https://images.squarespace-cdn.com/content/v1/599c4dfd59cc682fb9fecde7/1503956522032-WLLP2WOM02L8E5395XG9/Healing+Vibes+Esthetics+%7C+Skin+Care+%26+Esthetician+%7C+Denver+Highlands?format=300w"
           alt="shea"
           className=""
         />
-        <h1 className="font-licorice font-bold text-3xl md:text-6xl lg:text-6xl xl:text-6xl">
+        <h1 className="font-licorice font-bold text-center text-3xl md:text-6xl lg:text-6xl xl:text-6xl">
           Skin Care Specialist in Jasper, Indiana
         </h1>
         <div className="flex flex-col  md:w-3/4 justify-center items-center p-8 md:p-10 text-center">

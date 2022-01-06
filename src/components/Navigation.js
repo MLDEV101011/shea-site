@@ -16,7 +16,6 @@ function Navigation() {
                     <li><Link to='/services' className='text-white font-bold text-xl'>Services</Link></li>
                     <li><Link to='/about' className='text-white font-bold text-xl '>About Shea</Link></li>
                     <li><Link to='/contact' className='text-white font-bold text-xl '>Contact Me</Link></li>
-                    <li><Link to='/schedule' className='text-white font-bold text-xl'>Schedule an Appointment</Link></li>
 
                 </ul>
             </div>
