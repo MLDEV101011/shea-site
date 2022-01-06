@@ -47,8 +47,8 @@ function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1 text-gray-500">
-                5471 E Church St <br />
-                Dubois, IN 47527
+                1234 Main St <br />
+                Jasper, IN 47527
               </p>
             </div>
             <div className="pl-0 lg:w-1/2 px-5 mt-4 lg:mt-0">
@@ -59,16 +59,16 @@ function Contact() {
                 href="mailto: mlarson.dev@gmail.com"
                 className="text-indigo-400 leading-relaxed"
               >
-                mlarson.dev@gmail.com
+                shea@sheasesthetics.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
               <a
-                href="tel:18126391684"
+                href="tel:15555555555"
                 className="leading-relaxed text-gray-500"
               >
-                812-639-1684
+                555-555-5555
               </a>
             </div>
           </div>
@@ -131,6 +131,11 @@ function Contact() {
           >
             Submit
           </button>
+          <div className="flex flex-col lg:flex-row items-center w-full justify-center mt-5">
+            <p className="text-gray-500 text-2xl md:mr-2">CLICK TO CALL ME AT </p>
+              <a href="tel:15555555555" className="text-green-500 text-2xl">1-555-555-5555</a>
+          </div>
+          
         </form>
       </div>
 

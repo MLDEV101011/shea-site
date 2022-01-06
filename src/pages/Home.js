@@ -36,7 +36,7 @@ function Home() {
           </p>
         </div>
         <div className="flex flex-col w-full justify-center items-center p-2">
-          <Link to="/schedule" className="bg-gray-600 p-3 text-white rounded">
+          <Link to="/contact" className="bg-gray-600 p-3 text-white rounded">
             Book an Appointment
           </Link>
         </div>

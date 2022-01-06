@@ -30,12 +30,7 @@ function Header() {
           >
             Contact Me
           </Link>
-          <Link
-            to="/schedule"
-            className="font-licorice hover:text-4xl transition-transform ease-in-out text-gray-800 font-bold text-3xl ml-10"
-          >
-            Schedule an Appointment
-          </Link>
+          
         </ul>
       </div>
       <div className="flex justify-end md:hidden lg:hidden">{hamburger}</div>
